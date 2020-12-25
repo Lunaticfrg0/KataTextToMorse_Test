@@ -1,0 +1,11 @@
+--Requerimientos
+    --REQ-F-01: El programa debe convertir de manera correcta un conjunto de caracteres y devolverlos en su equivalencia en
+                codigo morse.
+
+--Criterios de Aceptacion
+    --CA-REQ-F-02: El programa retorna de manera exitosa la correcta conversion de texto a morse
+
+--Escenarios de Prueba
+    --EP-01: hola => .... --- .-.. .-
+    --EP-02: queso => --.- ..- . ... ---
+    --EP-03: test => - . ... -
