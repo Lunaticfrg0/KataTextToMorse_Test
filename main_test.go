@@ -9,3 +9,9 @@ func TestConvertion1(t *testing.T){
 		t.Error("wrong")
 	}
 }
+func TestConvertion2(t *testing.T){
+	if convertion("queso") != "--.- ..- . ... --- "{
+		t.Error("wrong")
+	}
+}
+
