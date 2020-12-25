@@ -9,4 +9,9 @@ func TestConvertion1(t *testing.T){
 		t.Error("wrong")
 	}
 }
+func TestConvertion2(t *testing.T){
+	if convertionToMorse("test") != "- . ... - " {
+		t.Error("wrong")
+	}
+}
 
