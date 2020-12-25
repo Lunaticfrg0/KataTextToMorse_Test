@@ -5,17 +5,7 @@ import
 
 
 func TestConvertion1(t *testing.T){
-	if convertion("hola") != ".... --- .-.. .- "{
-		t.Error("wrong")
-	}
-}
-func TestConvertion2(t *testing.T){
-	if convertion("queso") != "--.- ..- . ... --- "{
-		t.Error("wrong")
-	}
-}
-func TestConvertion3(t *testing.T){
-	if convertion("test") != "- . ... - "{
+	if convertionToMorse("hola") != ".... --- .-.. .- " {
 		t.Error("wrong")
 	}
 }
