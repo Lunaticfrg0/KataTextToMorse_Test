@@ -14,4 +14,9 @@ func TestConvertion2(t *testing.T){
 		t.Error("wrong")
 	}
 }
+func TestConvertion3(t *testing.T){
+	if convertionToMorse("cocina") != "-.-. --- -.-. .. -. .- " {
+		t.Error("wrong")
+	}
+}
 
