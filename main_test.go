@@ -36,6 +36,6 @@ func TestConvertion6(t *testing.T){
 }
 func TestConvertion7(t *testing.T){
 	if convertionToMorse("1234567") != ".---- ..--- ...-- ....- ..... -.... --... " {
-		t.Error("wrong case 6")
+		t.Error("wrong case 7")
 	}
 }
