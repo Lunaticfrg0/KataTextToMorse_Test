@@ -19,3 +19,8 @@ func TestConvertion3(t *testing.T){
 		t.Error("wrong case 3")
 	}
 }
+func TestConvertion4(t *testing.T){
+	if convertToMorse("SOS") != "... --- ... "  {
+		t.Error("wrong case 4")
+	}
+}
