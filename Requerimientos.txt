@@ -1,22 +1,20 @@
 --Requerimientos
-    -REQ-F-01: El programa debe leer una serie de caracteres y convertirlos a su equivalencia en el
-                codigo morse.
-    --REQ-NF-01: El sistema debe devolver el resultado de la traduccion en un tiempo menor a
-                 5 segundos
-    --REQ-NF-02: El sistema debe devolver el resultado de las pruebas en un tiempo menor a
-                5 segundos
+
+    --REQ-F-01: El sistema debe analizar una linea de caracteres y convertirla a su equivalencia
+                en el codigo morse.
+    --REQ-NF-01: El sistema debe devolver el resultado del analisis en un tiempo menor a 5 segundos.
+    --REQ-NF-02: El sistema debe devolver el resultado de las pruebas en un tiempo menor a 5 segundos.
 
 --Criterios de Exito
-    --CE-REQ-F-01: La correcta conversion del sistema de caracteres al codigo morse
-    --CE-REQ-NF-01: El programa devuelve el resultado de la traduccion antes de los 5 segundos
-    --CE-REQ-NF-02: El programa devulve el resultado de las pruebas antes de los  5 segundos
+    --CE-REQ-F-01: El programa devuelve de manera correcta el resultadod de la conversion de texto a
+                    morse.
+    --CE-REQ-NF-01: El programa devuelve el resultado de la conversion antes de los 5 segundos
+    --CE-REQ-NF-02: El programa devuelve el resultado de las pruebas antes de los 5 segundos
 
--Escenarios de Prueba
-    hola => .... --- .-.. .-
-    test => - . ... -
-    cocina => -.-. --- -.-. .. -. .-
-    queso => --.- ..- . ... ---
-    camaleon => -.-. .- -- .- .-.. . --- -.
-    hp => .... .--.
-    1234567 => .---- ..--- ...-- ....- ..... -.... --...
-
+--Escenarios de Prueba
+    --hola => .... --- .-.. .-
+    --tucan => - ..- -.-. .- -.
+    --1233 => .---- ..--- ...-- ...--
+    --SOS => ... --- ...
+    --camaleon => -.-. .- -- .- .-.. . --- -.
+    --(ayuda) => -.--. .- -.-- ..- -.. .- -.--.-
