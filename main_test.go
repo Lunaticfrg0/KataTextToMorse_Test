@@ -24,3 +24,8 @@ func TestConvertion4(t *testing.T){
 		t.Error("wrong case 4")
 	}
 }
+func TestConvertion5(t *testing.T){
+	if convertToMorse("camaleon") != "-.-. .- -- .- .-.. . --- -. "  {
+		t.Error("wrong case 5")
+	}
+}
